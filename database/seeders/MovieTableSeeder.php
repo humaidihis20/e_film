@@ -22,7 +22,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Drama',
                 'video_url' => 'https://www.youtube.com/watch?v=6hB3S9bIaco',
                 'thumbnail' => 'https://cdn.pixabay.com/photo/2018/03/27/18/52/football-3266982_1280.jpg',
-                'rating' => 9.3,
+                'rating' => 4.9,
                 'is_featured' => 1
             ],
 
@@ -32,7 +32,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Drama',
                 'video_url' => 'https://www.youtube.com/watch?v=sY1S34973zA',
                 'thumbnail' => 'https://cdn.pixabay.com/photo/2018/06/20/22/59/train-3487575_1280.jpg',
-                'rating' => 9.2,
+                'rating' => 4.5,
                 'is_featured' => 0
             ],
 
@@ -42,7 +42,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Drama',
                 'video_url' => 'https://www.youtube.com/watch?v=sY1S34973zA',
                 'thumbnail' => 'https://cdn.pixabay.com/photo/2018/03/27/18/51/mohr-heads-3266981_1280.jpg',
-                'rating' => 9.1,
+                'rating' => 4.0,
                 'is_featured' => 0
             ],
         ];
