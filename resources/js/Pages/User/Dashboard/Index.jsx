@@ -27,14 +27,14 @@ export default function Dashboard({ auth, featuredMovies, movies }) {
                     Featured Movies
                 </div>
                 <Flickity className="gap-[30px]" options={flickityOptions}>
-                    {featuredMovies.map((featureMovie) => (
+                    {featuredMovies.map((featuredMovie) => (
                         <FeaturedMovie
-                            key={featureMovie.id}
-                            slug={featureMovie.slug}
-                            name={`The Batman In Love ${featureMovie}`}
-                            category={featureMovie.category}
-                            thumbnail={featureMovie.thumbnail}
-                            rating={featureMovie.rating}
+                            key={featuredMovie.id}
+                            slug={featuredMovie.slug}
+                            name={featuredMovie.name}
+                            category={featuredMovie.category}
+                            thumbnail={featuredMovie.thumbnail}
+                            rating={featuredMovie.rating}
                         />
                     ))}
                 </Flickity>
@@ -50,7 +50,7 @@ export default function Dashboard({ auth, featuredMovies, movies }) {
                         <MovieCard
                             key={movie.id}
                             slug={movie.slug}
-                            name={`The Batman In Love ${movie}`}
+                            name={movie.name}
                             category={movie.category}
                             thumbnail={movie.thumbnail}
                         />
