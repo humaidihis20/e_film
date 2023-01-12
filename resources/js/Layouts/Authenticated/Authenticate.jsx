@@ -1,13 +1,12 @@
 import Sidebar from "@/Layouts/Authenticated/Sidebar";
 import Topbar from "@/Layouts/Authenticated/Topbar";
-import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 
 export default function Authenticate({ auth, children }) {
     return (
         <>
             <div className="mx-auto max-w-screen hidden lg:block">
                 {/* START: Sidebar */}
-                <Sidebar />
+                <Sidebar auth={auth} />
                 {/* END: Sidebar */}
 
                 {/* START: Content */}
